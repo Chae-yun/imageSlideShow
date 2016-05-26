@@ -11,13 +11,15 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
 
         <Button
             android:id="@+id/but_start"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/but_text_start"/>
+            android:text="@string/but_text_start"
+            android:layout_marginRight="80dp"/>
 
         <Button
             android:id="@+id/but_stop"
@@ -30,7 +32,9 @@
     <ViewFlipper
         android:id="@+id/view_flip"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp">
 
         <ImageView
             android:src="@drawable/img01"
@@ -79,11 +83,6 @@
 
         <ImageView
             android:src="@drawable/img10"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-        <ImageView
-            android:src="@drawable/img11"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
